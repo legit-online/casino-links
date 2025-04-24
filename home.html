@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legit Online Casino Links</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+    .top-section {
+      position: relative;
+      width: 100%;
+    }
+    .top-section img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      padding: 0 10px;
+    }
+    .main-content {
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .box {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 100%;
+      max-width: 400px;
+      cursor: pointer;
+    }
+    .box img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+    .box-title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+    .modal-content {
+      background: white;
+      padding: 20px;
+      max-width: 500px;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      position: relative;
+    }
+    .qr-img img {
+      width: 150px;
+      height: 150px;
+    }
+    .btns button {
+      padding: 10px 20px;
+      margin: 10px 5px;
+      border: none;
+      border-radius: 5px;
+      background-color: #ccc;
+      color: #000;
+      cursor: pointer;
+    }
+    .btns button.active {
+      background-color: #178BAB;
+      color: #fff;
+    }
+    .links a {
+      display: block;
+      color: #178BAB;
+      margin-top: 10px;
+    }
+    /* Close button style */
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: transparent;
+      border: none;
+      font-size: 30px;
+      color: #333;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-section">
+    <img src="images/logo.jpg" alt="Top Image">
+    <div class="overlay">
+      <h1 class="text-white text-2xl sm:text-4xl font-bold text-center px-4">Legit Online Casino Links</h1>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <!-- Box 1 -->
+    <div class="box" onclick="openModal('1')">
+      <img src="images/jili.jpg" alt="Logo">
+      <div class="box-title">JILI PARK</div>
+    </div>
+
+    <!-- Box 2 -->
+    <div class="box" onclick="openModal('2')">
+      <img src="images/p898.jpg" alt="Logo">
+      <div class="box-title">P898</div>
+    </div>
+
+    <!-- Box 3 -->
+    <div class="box" onclick="openModal('3')">
+      <img src="images/diwata.jpg" alt="Logo">
+      <div class="box-title">DIWATA PLAY</div>
+    </div>
+
+    <!-- Box 4 -->
+    <div class="box" onclick="openModal('4')">
+      <img src="images/joyjili.jpg" alt="Logo">
+      <div class="box-title">JOYJILI</div>
+    </div>
+  </div>
+
+  <!-- Modal 1 -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <button class="close-btn" onclick="closeModal('1')">&times;</button>
+      <div class="qr-img" id="qrImg1">
+        <p>Scan the QR code below to proceed with account registration.</p> <br>
+        <img src="images/jiliQR.jpg" alt="QR Code">
+      </div>
+      <div class="links" id="links1" style="display: none;">
+        <p>Click here to proceed with account registration.</p> <br>
+        <a href="https://www.57jilipark.club/m/register?r=ofn8488" target="_blank">JILI PARK</a>
+      </div>
+      <div class="btns">
+        <button id="qrBtn1" class="active" onclick="showQR('1')">QR</button>
+        <button id="linkBtn1" onclick="showLinks('1')">Links</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <button class="close-btn" onclick="closeModal('2')">&times;</button>
+      <div class="qr-img" id="qrImg2">
+        <p>Scan the QR code below to proceed with account registration.</p> <br>
+        <img src="images/p898QR.jpg" alt="QR Code">
+      </div>
+      <div class="links" id="links2" style="display: none;">
+        <p>Click here to proceed with account registration.</p> <br>
+        <a href="https://www.p898.net/m/register?referralCode=dmy7991&affiliateCode=sky209" target="_blank">p898</a>
+      </div>
+      <div class="btns">
+        <button id="qrBtn2" class="active" onclick="showQR('2')">QR</button>
+        <button id="linkBtn2" onclick="showLinks('2')">Links</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <button class="close-btn" onclick="closeModal('3')">&times;</button>
+      <div class="qr-img" id="qrImg3">
+        <p>Scan the QR code below to proceed with account registration.</p> <br>
+        <img src="images/diwataQR.jpg" alt="QR Code">
+      </div>
+      <div class="links" id="links3" style="display: none;">
+        <p>Click here to proceed with account registration.</p> <br>
+        <a href="https://www.diwataplay88.com/m/register?r=iej7279" target="_blank">DIWATA PLAY</a>
+      </div>
+      <div class="btns">
+        <button id="qrBtn3" class="active" onclick="showQR('3')">QR</button>
+        <button id="linkBtn3" onclick="showLinks('3')">Links</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <button class="close-btn" onclick="closeModal('4')">&times;</button>
+      <div class="qr-img" id="qrImg4">
+        <p>Scan the QR code below to proceed with account registration.</p> <br>
+        <img src="images/joyjiliQR.jpg" alt="QR Code">
+      </div>
+      <div class="links" id="links4" style="display: none;">
+        <p>Click here to proceed with account registration.</p> <br>
+        <a href="https://www.joyjili.link/m/register?r=dil8298" target="_blank">JOYJILI</a>
+      </div>
+      <div class="btns">
+        <button id="qrBtn4" class="active" onclick="showQR('4')">QR</button>
+        <button id="linkBtn4" onclick="showLinks('4')">Links</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openModal(id) {
+      const modal = document.getElementById('modal' + id);
+      modal.style.display = 'flex';
+    }
+
+    function closeModal(id) {
+      const modal = document.getElementById('modal' + id);
+      modal.style.display = 'none';
+    }
+
+    function showQR(id) {
+      document.getElementById('qrImg' + id).style.display = 'block';
+      document.getElementById('links' + id).style.display = 'none';
+      document.getElementById('qrBtn' + id).classList.add('active');
+      document.getElementById('linkBtn' + id).classList.remove('active');
+    }
+
+    function showLinks(id) {
+      document.getElementById('qrImg' + id).style.display = 'none';
+      document.getElementById('links' + id).style.display = 'block';
+      document.getElementById('qrBtn' + id).classList.remove('active');
+      document.getElementById('linkBtn' + id).classList.add('active');
+    }
+  </script>
+</body>
+</html>
